@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="X Audio Player" package="com.dotmpe.x.openfl.audioplayer" version="0.0.1" company=".mpe" />
+  <!--
+  <app main="StandardSimple" path="Export" file="StandardAudioPlayerSimple" />
+	<app main="BasicInfo" path="Export" file="BasicAudioPlayerInfo" />
+  -->
+  <app main="BasicControl" path="Export" file="BasicAudioPlayerControl" />
+
+	<window require-shaders="true" allow-high-dpi="true" width="400" height="180" background="#2E3436" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<haxelib name="format" />
+
+  <assets path="Asset" rename="assets" include="*.ogg|*.wav|*.mp3|*.png|*.json" />
+  <assets path="Asset/Font" rename="assets/fonts" embed="true">
+      <file path="topaz_unicode_ks13_regular.ttf" id="topaz" />
+  </assets>
+
+</project>
