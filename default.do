@@ -36,6 +36,7 @@ default_do_main ()
   # End build if handler has not exit already
   exit $?
 }
+
 [[ ! ${REDO_RUNID+set} ]] ||
   default_do_main "$@"
 
